@@ -1,0 +1,850 @@
+{
+  "1.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      242,
+      155,
+      452,
+      371
+    ],
+    "cropped_size": [
+      210,
+      216
+    ]
+  },
+  "10.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "11.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "12.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "13.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "14.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "15.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "16.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "17.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "18.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "19.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "2.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "20.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "21.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      195,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      216
+    ]
+  },
+  "22.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      195,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      216
+    ]
+  },
+  "23.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      201,
+      126,
+      411,
+      343
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "24.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "25.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "26.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "27.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "28.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "29.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      195,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      216
+    ]
+  },
+  "3.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "30.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "31.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      428,
+      288,
+      638,
+      505
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "32.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "33.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "34.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      267,
+      153,
+      477,
+      369
+    ],
+    "cropped_size": [
+      210,
+      216
+    ]
+  },
+  "35.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "36.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      409,
+      266,
+      619,
+      482
+    ],
+    "cropped_size": [
+      210,
+      216
+    ]
+  },
+  "37.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "38.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "39.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "4.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "40.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "41.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      733,
+      195,
+      943,
+      411
+    ],
+    "cropped_size": [
+      210,
+      216
+    ]
+  },
+  "42.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "43.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "5.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "6.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      432,
+      189,
+      642,
+      406
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "7.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "8.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "9.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "visitante homem 1.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "visitante homem 2.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "visitante homem 3.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "visitante homem 4.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "visitante homem 5.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "visitante mulher 1.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "visitante mulher 2.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "visitante mulher 3.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "visitante mulher 4.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  },
+  "visitante mulher 5.png": {
+    "original_size": [
+      6250,
+      4107
+    ],
+    "bbox": [
+      248,
+      194,
+      458,
+      411
+    ],
+    "cropped_size": [
+      210,
+      217
+    ]
+  }
+}

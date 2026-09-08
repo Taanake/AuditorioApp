@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f2f0eb">
+
+    <title>Auditório</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="./manifest.json">
+</head>
+
+<body>
+
+    <main id="app">
+
+        <!-- CONTROLES -->
+       <div id="controles">
+
+    <button id="btnResetar">
+        ↺ Resetar posições
+    </button>
+
+    <button id="btnVisitantes">
+        👥 Visitantes
+    </button>
+
+    <div id="menuVisitantes">
+
+        <button id="btnAdicionarHomem">
+            Adicionar visitante homem
+        </button>
+
+        <button id="btnAdicionarMulher">
+            Adicionar visitante mulher
+        </button>
+
+        <button id="btnExcluirVisitantes">
+            Excluir visitantes
+        </button>
+
+    </div>
+
+</div>
+
+
+        <!-- CENÁRIO -->
+        <div id="cenario">
+
+            <img
+                id="auditorio"
+                src="./imagens/Auditorio.png"
+                alt="Auditório"
+            >
+
+            <div id="avatares"></div>
+
+        </div>
+
+    </main>
+
+
+    <script src="./app.js"></script>
+    
+    <script>
+    if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+            navigator.serviceWorker.register("./sw.js")
+                .then(function (registro) {
+                    console.log(
+                        "Service Worker registrado:",
+                        registro.scope
+                    );
+                })
+                .catch(function (erro) {
+                    console.error(
+                        "Erro ao registrar Service Worker:",
+                        erro
+                    );
+                });
+        });
+    }
+</script>
+
+</body>
+</html>
+
