@@ -1,0 +1,27 @@
+{
+    "name": "Auditório",
+    "short_name": "Auditório",
+    "description": "Aplicativo de organização do auditório",
+    "start_url": "./index.html",
+    "scope": "./",
+    "id": "./index.html",
+    "display": "standalone",
+    "orientation": "landscape",
+    "background_color": "#f2f0eb",
+    "theme_color": "#f2f0eb",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "./imagens/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "./imagens/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ]
+}
