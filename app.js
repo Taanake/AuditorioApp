@@ -1427,25 +1427,129 @@ const posicao = {
     );
 
 
-    /*
-     * ==========================================================
-     * POINTERS NO CENÁRIO
-     * ==========================================================
-     */
+   /*
+ * ==========================================================
+ * POINTERS NO CENÁRIO
+ * ==========================================================
+ */
 
-    cenario.addEventListener(
-        "pointerdown",
-        function (evento) {
+cenario.addEventListener(
+    "pointerdown",
+    function (evento) {
 
-            if (
-                evento.target.classList.contains(
-                    "avatar"
-                )
-            ) {
+        /*
+         * Se começou sobre um avatar,
+         * o controle pertence ao avatar.
+         */
 
-                return;
+        if (
+            evento.target.classList.contains(
+                "avatar"
+            )
+        ) {
+
+            return;
+        }
+
+
+        evento.preventDefault();
+
+
+        /*
+         * Registra o ponteiro.
+         */
+
+        ponteiros.set(
+            evento.pointerId,
+            {
+                x:
+                    evento.clientX,
+
+                y:
+                    evento.clientY,
+
+                avatar:
+                    null
+            }
+        );
+
+
+        /*
+         * Um dedo:
+         * começa o PAN do cenário.
+         */
+
+        if (
+            ponteiros.size === 1
+        ) {
+
+            movendoVisao =
+                true;
+
+
+            ultimoMouseX =
+                evento.clientX;
+
+            ultimoMouseY =
+                evento.clientY;
+
+
+            try {
+
+                cenario.setPointerCapture(
+                    evento.pointerId
+                );
+
+            } catch (erro) {
+
+                // Nada a fazer
             }
 
+
+            return;
+        }
+
+
+        /*
+         * Dois dedos:
+         * encerra o PAN de um dedo
+         * e inicia o gesto de zoom.
+         */
+
+        if (
+            ponteiros.size >= 2
+        ) {
+
+            movendoVisao =
+                false;
+
+
+            iniciarGesto();
+        }
+
+    }
+);
+
+
+/*
+ * ==========================================================
+ * POINTER MOVE
+ * ==========================================================
+ */
+
+cenario.addEventListener(
+    "pointermove",
+    function (evento) {
+
+        /*
+         * Atualiza a posição do ponteiro.
+         */
+
+        if (
+            ponteiros.has(
+                evento.pointerId
+            )
+        ) {
 
             ponteiros.set(
                 evento.pointerId,
@@ -1460,95 +1564,180 @@ const posicao = {
                         null
                 }
             );
-
-
-            if (
-                ponteiros.size >= 2
-            ) {
-
-                iniciarGesto();
-            }
-
         }
-    );
 
 
-    cenario.addEventListener(
-        "pointermove",
-        function (evento) {
+        /*
+         * Dois dedos:
+         * usa o sistema existente de zoom.
+         */
 
-            if (
-                ponteiros.has(
-                    evento.pointerId
-                )
-            ) {
+        if (
+            ponteiros.size >= 2
+        ) {
 
-                ponteiros.set(
-                    evento.pointerId,
-                    {
-                        x:
-                            evento.clientX,
-
-                        y:
-                            evento.clientY,
-
-                        avatar:
-                            null
-                    }
-                );
-            }
+            movendoVisao =
+                false;
 
 
-            if (
-                ponteiros.size >= 2
-            ) {
+            evento.preventDefault();
 
-                evento.preventDefault();
 
-                atualizarGesto();
-            }
+            atualizarGesto();
 
+            return;
         }
-    );
 
 
-    cenario.addEventListener(
-        "pointerup",
-        function (evento) {
+        /*
+         * Um dedo:
+         * movimenta o cenário.
+         */
 
-            ponteiros.delete(
-                evento.pointerId
-            );
+        if (
+            ponteiros.size === 1 &&
+            movendoVisao
+        ) {
+
+            evento.preventDefault();
 
 
-            if (
-                ponteiros.size < 2
-            ) {
+            const movimentoX =
+                evento.clientX -
+                ultimoMouseX;
 
-                gestoAnterior =
-                    null;
-            }
 
+            const movimentoY =
+                evento.clientY -
+                ultimoMouseY;
+
+
+            deslocamentoX +=
+                movimentoX;
+
+
+            deslocamentoY +=
+                movimentoY;
+
+
+            ultimoMouseX =
+                evento.clientX;
+
+            ultimoMouseY =
+                evento.clientY;
+
+
+            aplicarTransformacao();
         }
-    );
+
+    }
+);
 
 
-    cenario.addEventListener(
-        "pointercancel",
-        function (evento) {
+/*
+ * ==========================================================
+ * POINTER UP
+ * ==========================================================
+ */
 
-            ponteiros.delete(
-                evento.pointerId
-            );
+cenario.addEventListener(
+    "pointerup",
+    function (evento) {
+
+        ponteiros.delete(
+            evento.pointerId
+        );
+
+
+        if (
+            ponteiros.size === 0
+        ) {
+
+            movendoVisao =
+                false;
 
             gestoAnterior =
                 null;
 
+        }
+
+
+        if (
+            ponteiros.size === 1
+        ) {
+
+            movendoVisao =
+                true;
+
+
+            const pontos =
+                Array.from(
+                    ponteiros.values()
+                );
+
+
+            if (
+                pontos.length === 1
+            ) {
+
+                ultimoMouseX =
+                    pontos[0].x;
+
+                ultimoMouseY =
+                    pontos[0].y;
+            }
+
+        }
+
+
+        try {
+
+            cenario.releasePointerCapture(
+                evento.pointerId
+            );
+
+        } catch (erro) {
+
+            // Nada a fazer
+        }
+
+    }
+);
+
+
+/*
+ * ==========================================================
+ * POINTER CANCEL
+ * ==========================================================
+ */
+
+cenario.addEventListener(
+    "pointercancel",
+    function (evento) {
+
+        ponteiros.delete(
+            evento.pointerId
+        );
+
+
+        movendoVisao =
+            false;
+
+
+        gestoAnterior =
+            null;
+
+
+        if (
+            ponteiros.size === 0
+        ) {
+
             avatarArrastando =
                 null;
         }
-    );
 
+    }
+);
 
     /*
      * ==========================================================
