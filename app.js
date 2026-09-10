@@ -345,7 +345,7 @@ function reajustarParaNovaTela() {
     return {
 
         x:
-            2900 +
+            2200 +
             coluna * 70,
 
         y:
