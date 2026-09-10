@@ -96,6 +96,10 @@ body {
     left: 20px;
 
     z-index: 999999;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 
