@@ -657,7 +657,7 @@ function reajustarParaNovaTela() {
          */
 
         avatar.style.width =
-            "75px";
+            "50px";
 
         avatar.style.height =
             "auto";
