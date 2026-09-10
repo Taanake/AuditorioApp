@@ -349,7 +349,7 @@ function reajustarParaNovaTela() {
             coluna * 70,
 
         y:
-            150 +
+            130 +
             linha * 65
     };
 }
