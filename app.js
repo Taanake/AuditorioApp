@@ -1180,8 +1180,8 @@ function reajustarParaNovaTela() {
 const linha = Math.floor(indice / 3);
 
 const posicao = {
-    x: 5000 + coluna * 300,
-    y: 1200 + linha * 400
+    x: 500 + coluna * 300,
+    y: 120 + linha * 400
 };
 
 
