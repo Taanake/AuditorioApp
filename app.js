@@ -332,29 +332,27 @@ function reajustarParaNovaTela() {
      * ==========================================================
      */
 
-    function obterPosicaoInicial(indice) {
+  function obterPosicaoInicial(indice) {
 
-        const coluna =
-            indice % 8;
+    const coluna =
+        indice % 5;
 
-        const linha =
-            Math.floor(
-                indice / 8
-            );
+    const linha =
+        Math.floor(
+            indice / 5
+        );
 
+    return {
 
-        return {
+        x:
+            2900 +
+            coluna * 70,
 
-            x:
-                500 +
-                coluna * 300,
-
-            y:
-                500 +
-                linha * 450
-        };
-    }
-
+        y:
+            300 +
+            linha * 65
+    };
+}
 
     /*
      * ==========================================================
