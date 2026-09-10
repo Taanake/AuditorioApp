@@ -101,20 +101,20 @@ body {
 
 #btnResetar {
   
-    padding: 12px 24px;
+    padding: 8px 16px;
 
     border: none;
-    border-radius: 12px;
+    border-radius: 10px;
 
     background: #ffffff;
     color: #222222;
 
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
 
     cursor: pointer;
 
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -137,16 +137,16 @@ body {
         drop-shadow(0 0 8px rgba(255, 215, 0, 0.95));
 }
 #btnVisitantes {
-    margin-top: 10px;
-    padding: 14px 24px;
+    margin-top: 6px;
+    padding: 8px 16px;
     border: none;
-    border-radius: 12px;
+    border-radius: 10px;
     background: #ffffff;
     color: #222222;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     cursor: pointer;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.25);
 }
 
 #btnVisitantes:hover {
