@@ -645,7 +645,7 @@ function reajustarParaNovaTela() {
 
 
         avatar.style.left =
-             (posicao.x * 1.15) + "px";
+             posicao.x + "px";
 
 
         avatar.style.top =
