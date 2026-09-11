@@ -1175,13 +1175,13 @@ function reajustarParaNovaTela() {
             visitantesSalvos.length;
 
 
-       const coluna = indice % 3;
+       const coluna = indice % 5;
 
-const linha = Math.floor(indice / 3);
+const linha = Math.floor(indice / 5);
 
 const posicao = {
-    x: 300 + coluna * 300,
-    y: 90 + linha * 400
+    x: 100 + coluna * 60,
+    y: 500 + linha * 60
 };
 
 
